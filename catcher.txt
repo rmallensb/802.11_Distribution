@@ -1,0 +1,216 @@
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807655406
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807717481
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807721037
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807782322
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807782973
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808550442
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808641846
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808707997
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808746809
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808749657
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808790269
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808790708
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807655406
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807717481
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807721037
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807782322
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807782973
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808550442
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808641846
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808707997
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808746809
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808749657
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808790269
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808790708
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807655406
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807717481
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807721037
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807782322
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1807782973
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808550442
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808641846
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808707997
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808746809
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808749657
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808790269
+	Data rate: 44.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 149
+	Frequency: 5745 MHz
+	TSF timestamp: 1808790708
+	Data rate: 44.0 Mb/s
+
