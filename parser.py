@@ -19,14 +19,49 @@ def parse_a(cap, dict):
 
     dict['Count'] += 1
 
+    snr_true = True
+
     for item in interest:
         index = interest[item]
+
+        # Make sure we have that data
+        # If not increment 'omitted' value
+        if item not in capture[index]:
+            # Can't calculate SNR if one is missing
+            if item == 'Signal' or item == 'Noise':
+                snr_true = False
+
+            if 'omitted' in dict[item]:
+                dict[item]['omitted'] += 1
+            else:
+                dict[item]['omitted'] = 1
+            continue
+
         data = capture[index].split(': ')[1]
 
         if data in dict[item]:
             dict[item][data] += 1
         else:
             dict[item][data] = 1
+
+    # Also calculate SNR if both data values present
+    if snr_true:
+        s_index = interest['Signal']
+        n_index = interest['Noise']
+        s = capture[s_index].split(': ')[1].split(' ')[0]
+        n = capture[n_index].split(': ')[1].split(' ')[0]
+        snr = float(s) / float(n)
+
+        if snr in dict['SNR']:
+            dict['SNR'][snr] += 1
+        else:
+            dict['SNR'][snr] = 1
+    else:
+        if 'omitted' in dict['SNR']:
+            dict['SNR']['omitted'] += 1
+        else:
+            dict['SNR']['omitted'] = 1
+
 
     return dict
 
@@ -36,25 +71,59 @@ def parse_a(cap, dict):
 # 3  - MCS Index
 # 7  - Signal Strength
 # 10 - PHY Type
-# 12 - Data Rate
-# 15 - Frequency
-# 16 - Noise Level
-# 19 - Preamble
-# 21 - Bandwidth
+# 11 - Data Rate
+# 14 - Frequency
+# 15 - Noise Level
+# 18 - Preamble
+# 20 - Bandwidth
 def parse_n(cap, dict):
     capture = cap.split('\n')[1:]
-    interest = {'Channel': 0, 'Signal': 7, 'Rate': 12, 'Frequency': 15, 'Noise': 16, 'Bandwidth': 21}
+    interest = {'Channel': 0, 'Signal': 7, 'Rate': 11, 'Frequency': 14, 'Noise': 15, 'Bandwidth': 20}
 
     dict['Count'] += 1
 
+    snr_true = True
+
     for item in interest:
         index = interest[item]
+    
+        # Make sure we have that data
+        # If not increment 'omitted' value
+        if item not in capture[index]:
+            # Can't calculate SNR if one is missing
+            if item == 'Signal' or item == 'Noise':
+                snr_true = False
+
+            if 'omitted' in dict[item]:
+                dict[item]['omitted'] += 1
+            else:
+                dict[item]['omitted'] = 1
+            continue
+
         data = capture[index].split(': ')[1]
 
         if data in dict[item]:
             dict[item][data] += 1
         else:
             dict[item][data] = 1
+
+    # Also calculate SNR if both data values present
+    if snr_true:
+        s_index = interest['Signal']
+        n_index = interest['Noise']
+        s = capture[s_index].split(': ')[1].split(' ')[0]
+        n = capture[n_index].split(': ')[1].split(' ')[0]
+        snr = float(s) / float(n)
+
+        if snr in dict['SNR']:
+            dict['SNR'][snr] += 1
+        else:
+            dict['SNR'][snr] = 1
+    else:
+        if 'omitted' in dict['SNR']:
+            dict['SNR']['omitted'] += 1
+        else:
+            dict['SNR']['omitted'] = 1
 
     return dict
 
@@ -63,8 +132,14 @@ def main():
     # TODO Make this parse all packets within a directory
     # TODO Output statistics into another directory
 
-    cap = pyshark.FileCapture('wireless_test.pcap')
-    
+    try:
+        capture = sys.argv[1]
+    except:
+        print( "Usage: python {} pcap_file ".format(sys.argv[0]))
+        exit(1)
+
+    cap = pyshark.FileCapture(capture)
+
     index = 0
 
     dict_a = {}
@@ -74,6 +149,7 @@ def main():
     dict_a['Signal'] = {}
     dict_a['Noise'] = {}
     dict_a['Rate'] = {}
+    dict_a['SNR'] = {}
 
     dict_n = {}
     dict_n['Count'] = 0
@@ -83,6 +159,7 @@ def main():
     dict_n['Noise'] = {}
     dict_n['Rate'] = {}
     dict_n['Bandwidth'] = {}
+    dict_n['SNR'] = {}
 
     while True:
         try:
@@ -91,7 +168,7 @@ def main():
             if (index % 10 == 0):
                 ft = open("tracker.txt", "w")
                 ft.write(str(index))
-                ft.close
+                ft.close()
 
             wlan = str(cap[index][1])
 
@@ -103,22 +180,25 @@ def main():
                 fd = open("catcher.txt", "a")
                 fd.write(wlan)
                 fd.write('\n')
-                fd.close
+                fd.close()
             index += 1
         except Exception as e:
             print e
-            print "\nDone\n"
+            print index
+            ft = open("tracker.txt", "w")
+            ft.write(str(index))
+            ft.close()
             break
 
-    fn = open("n.txt", "a")
-    fn.write(json.dumps(dict_n))
+    fn = open("n.txt", "w")
+    fn.write(json.dumps(dict_n, indent=2))
     fn.write('\n')
-    fn.close
+    fn.close()
 
-    fa = open("a.txt", "a")
-    fa.write(json.dumps(dict_a))
+    fa = open("a.txt", "w")
+    fa.write(json.dumps(dict_a, indent=2))
     fa.write('\n')
-    fa.close
+    fa.close()
 
 
     return
