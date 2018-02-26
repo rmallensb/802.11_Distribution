@@ -1,6 +1,11 @@
 import pyshark
 import sys, os
 import json
+from pathlib import Path
+
+
+output_a = 'gen_a.txt'
+output_n = 'gen_n.txt'
 
 
 # 0 - Turbo Type
@@ -15,7 +20,7 @@ import json
 # 9 - Data Rate
 def parse_a(cap, dict):
     capture = cap.split('\n')[1:]
-    interest = {'Channel': 1, 'Frequency': 2, 'Signal': 3, 'Noise': 6, 'Rate': 9}
+    interest = {'Channel': 1, 'Frequency': 2, 'Signal': 3, 'Noise': 6, 'rate': 9, 'Duration': 8}
 
     dict['Count'] += 1
 
@@ -78,7 +83,7 @@ def parse_a(cap, dict):
 # 20 - Bandwidth
 def parse_n(cap, dict):
     capture = cap.split('\n')[1:]
-    interest = {'Channel': 0, 'Signal': 7, 'Rate': 11, 'Frequency': 14, 'Noise': 15, 'Bandwidth': 20}
+    interest = {'Channel': 0, 'Signal': 7, 'rate': 11, 'Frequency': 14, 'Noise': 15, 'Bandwidth': 20, 'Duration': 2}
 
     dict['Count'] += 1
 
@@ -142,24 +147,42 @@ def main():
 
     index = 0
 
-    dict_a = {}
-    dict_a['Count'] = 0
-    dict_a['Channel'] = {}
-    dict_a['Frequency'] = {}
-    dict_a['Signal'] = {}
-    dict_a['Noise'] = {}
-    dict_a['Rate'] = {}
-    dict_a['SNR'] = {}
-
-    dict_n = {}
-    dict_n['Count'] = 0
-    dict_n['Channel'] = {}
-    dict_n['Frequency'] = {}
-    dict_n['Signal'] = {}
-    dict_n['Noise'] = {}
-    dict_n['Rate'] = {}
-    dict_n['Bandwidth'] = {}
-    dict_n['SNR'] = {}
+    # Check if files exist already
+    # If they do we will just add the new data to them
+    # Otherwise create the files
+    a_path = Path(output_a)
+    n_path = Path(output_n)
+    if a_path.is_file():
+        fa = open(output_a, 'r')
+        dict_a = json.load(fa)
+        fa.close()
+    else:
+        dict_a = {}
+        dict_a['Retransmission'] = 0
+        dict_a['Count'] = 0
+        dict_a['Channel'] = {}
+        dict_a['Frequency'] = {}
+        dict_a['Signal'] = {}
+        dict_a['Noise'] = {}
+        dict_a['rate'] = {}
+        dict_a['Duration'] = {}
+        dict_a['SNR'] = {}
+    if n_path.is_file():
+        fn = open(output_n, 'r')
+        dict_n = json.load(fn)
+        fn.close()
+    else:
+        dict_n = {}
+        dict_n['Retransmission'] = 0
+        dict_n['Count'] = 0
+        dict_n['Channel'] = {}
+        dict_n['Frequency'] = {}
+        dict_n['Signal'] = {}
+        dict_n['Noise'] = {}
+        dict_n['rate'] = {}
+        dict_n['Bandwidth'] = {}
+        dict_n['Duration'] = {}
+        dict_n['SNR'] = {}
 
     while True:
         try:
@@ -169,8 +192,23 @@ def main():
                 ft = open("tracker.txt", "w")
                 ft.write(str(index))
                 ft.close()
+            
+            # First check if retransmission
+            # TODO: Also decide later on if we want to include retransmitted packets in analysis
 
             wlan = str(cap[index][1])
+            radiotap = str(cap[index][0]).split('\n')
+            for line in radiotap:
+                if 'Flags: ' in line:
+                    flag_code = line.split(' ')[1]
+                    flag_byte = int(flag_code[-1])
+                    if flag_byte >= 8:
+                        if '802.11a' in wlan:
+                            dict_a['Retransmission'] += 1
+                        elif '802.11n' in wlan:
+                            dict_n['Retransmission'] += 1
+                    break
+
 
             if '802.11a' in wlan:
                 dict_a = parse_a(wlan, dict_a)
@@ -190,12 +228,12 @@ def main():
             ft.close()
             break
 
-    fn = open("n.txt", "w")
+    fn = open(output_n, "w")
     fn.write(json.dumps(dict_n, indent=2))
     fn.write('\n')
     fn.close()
 
-    fa = open("a.txt", "w")
+    fa = open(output_a, "w")
     fa.write(json.dumps(dict_a, indent=2))
     fa.write('\n')
     fa.close()
