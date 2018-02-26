@@ -105,7 +105,7 @@ def parse_n(cap, dict):
     snr_true = True
 
     # First find duration
-    if 'Duration' not in capture[8]:
+    if 'Duration' not in capture[11]:
         dict['omitted'] += 1
     else:
         dur = capture[8].split(': ')[1]
