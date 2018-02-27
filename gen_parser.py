@@ -3,134 +3,58 @@ import sys, os
 import json
 from pathlib import Path
 
-
 output_a = 'gen_a.txt'
 output_n = 'gen_n.txt'
 
 
-# 0 - Turbo Type
-# 1 - Channel
-# 2 - Frequency
-# 3 - Signal Strength
-# 4 - TSF Timestamp
-# 5 - Preamble
-# 6 - Noise Level
-# 7 - PHY Type
-# 8 - Duration
-# 9 - Data Rate
-def parse_a(cap, dict):
-    capture = cap.split('\n')[1:]
-    interest = {'Channel': 1, 'Frequency': 2, 'Signal': 3, 'Noise': 6, 'rate': 9, 'Duration': 8}
 
-    dict['Count'] += 1
-
-    snr_true = True
-
-    for item in interest:
-        index = interest[item]
-
-        # Make sure we have that data
-        # If not increment 'omitted' value
-        if item not in capture[index]:
-            # Can't calculate SNR if one is missing
-            if item == 'Signal' or item == 'Noise':
-                snr_true = False
-
-            if 'omitted' in dict[item]:
-                dict[item]['omitted'] += 1
-            else:
-                dict[item]['omitted'] = 1
-            continue
-
-        data = capture[index].split(': ')[1]
-
-        if data in dict[item]:
-            dict[item][data] += 1
-        else:
-            dict[item][data] = 1
-
-    # Also calculate SNR if both data values present
-    if snr_true:
-        s_index = interest['Signal']
-        n_index = interest['Noise']
-        s = capture[s_index].split(': ')[1].split(' ')[0]
-        n = capture[n_index].split(': ')[1].split(' ')[0]
-        snr = float(s) / float(n)
-
-        if snr in dict['SNR']:
-            dict['SNR'][snr] += 1
-        else:
-            dict['SNR'][snr] = 1
-    else:
-        if 'omitted' in dict['SNR']:
-            dict['SNR']['omitted'] += 1
-        else:
-            dict['SNR']['omitted'] = 1
-
-
-    return dict
-
-
-# 0  - Channel
-# 2  - Duration
-# 3  - MCS Index
-# 7  - Signal Strength
-# 10 - PHY Type
-# 11 - Data Rate
-# 14 - Frequency
-# 15 - Noise Level
-# 18 - Preamble
-# 20 - Bandwidth
-def parse_n(cap, dict):
-    capture = cap.split('\n')[1:]
-    interest = {'Channel': 0, 'Signal': 7, 'rate': 11, 'Frequency': 14, 'Noise': 15, 'Bandwidth': 20, 'Duration': 2}
-
-    dict['Count'] += 1
-
-    snr_true = True
-
-    for item in interest:
-        index = interest[item]
+def parse(packet, d):
     
-        # Make sure we have that data
-        # If not increment 'omitted' value
-        if item not in capture[index]:
-            # Can't calculate SNR if one is missing
-            if item == 'Signal' or item == 'Noise':
-                snr_true = False
+    # For cap['WLAN']
+    wlan_interest  = ['fc_retry']
+    # For cap['WLAN_RADIO']
+    radio_interest = ['Signal_dbm', 'Noise_dbm', 'Data_rate', 'Duration']
 
-            if 'omitted' in dict[item]:
-                dict[item]['omitted'] += 1
-            else:
-                dict[item]['omitted'] = 1
+    d['Count'] += 1
+
+    snr_true = True
+
+    for item in wlan_interest:
+        retry = packet['WLAN'].get(item)
+        if type(retry) == type(None):            
             continue
 
-        data = capture[index].split(': ')[1]
+        d[item] += int(retry)
+   
+    for item in radio_interest:
+        data = packet['WLAN_RADIO'].get(item)
+        if type(data) == type(None):
+            if item == 'Signal_dbm' or item == 'Noise_dbm':
+                snr_true = False
 
-        if data in dict[item]:
-            dict[item][data] += 1
+            if 'omitted' in d[item]:
+                d[item]['omitted'] += 1
+            else:
+                d[item]['omitted'] = 1
         else:
-            dict[item][data] = 1
+            if data in d[item]:
+                d[item][data] += 1
+            else:
+                d[item][data] = 1
 
-    # Also calculate SNR if both data values present
+    # Calculate SNR
     if snr_true:
-        s_index = interest['Signal']
-        n_index = interest['Noise']
-        s = capture[s_index].split(': ')[1].split(' ')[0]
-        n = capture[n_index].split(': ')[1].split(' ')[0]
-        snr = float(s) / float(n)
+        signal = packet['WLAN_RADIO'].get('Signal_dbm')
+        noise  = packet['WLAN_RADIO'].get('Noise_dbm')
+        snr = float(signal) / float(noise)
 
-        if snr in dict['SNR']:
-            dict['SNR'][snr] += 1
+        if snr in d['SNR']:
+            d['SNR'][snr] += 1
         else:
-            dict['SNR'][snr] = 1
-    else:
-        if 'omitted' in dict['SNR']:
-            dict['SNR']['omitted'] += 1
-        else:
-            dict['SNR']['omitted'] = 1
+            d['SNR'][snr] = 1
 
-    return dict
+
+    return d
 
 
 def main():
@@ -158,13 +82,11 @@ def main():
         fa.close()
     else:
         dict_a = {}
-        dict_a['Retransmission'] = 0
+        dict_a['fc_retry'] = 0
         dict_a['Count'] = 0
-        dict_a['Channel'] = {}
-        dict_a['Frequency'] = {}
-        dict_a['Signal'] = {}
-        dict_a['Noise'] = {}
-        dict_a['rate'] = {}
+        dict_a['Signal_dbm'] = {}
+        dict_a['Noise_dbm'] = {}
+        dict_a['Data_rate'] = {}
         dict_a['Duration'] = {}
         dict_a['SNR'] = {}
     if n_path.is_file():
@@ -173,14 +95,11 @@ def main():
         fn.close()
     else:
         dict_n = {}
-        dict_n['Retransmission'] = 0
+        dict_n['fc_retry'] = 0
         dict_n['Count'] = 0
-        dict_n['Channel'] = {}
-        dict_n['Frequency'] = {}
-        dict_n['Signal'] = {}
-        dict_n['Noise'] = {}
-        dict_n['rate'] = {}
-        dict_n['Bandwidth'] = {}
+        dict_n['Signal_dbm'] = {}
+        dict_n['Noise_dbm'] = {}
+        dict_n['Data_rate'] = {}
         dict_n['Duration'] = {}
         dict_n['SNR'] = {}
 
@@ -193,30 +112,13 @@ def main():
                 ft.write(str(index))
                 ft.close()
             
-            # First check if retransmission
-            # TODO: Also decide later on if we want to include retransmitted packets in analysis
-
-            wlan = str(cap[index][1])
-            radiotap = str(cap[index][0]).split('\n')
-            for line in radiotap:
-                if line.startswith("Flags: "):
-                    flag_code = line.split(' ')[1]
-                    flag_byte = int(flag_code[-1])
-                    if flag_byte >= 8:
-                        if '802.11a' in wlan:
-                            dict_a['Retransmission'] += 1
-                        elif '802.11n' in wlan:
-                            dict_n['Retransmission'] += 1
-                    break
-
-
-            if '802.11a' in wlan:
-                dict_a = parse_a(wlan, dict_a)
-            elif '802.11n' in wlan:
-                dict_n = parse_n(wlan, dict_n)
+            if cap[index]['WLAN_RADIO'].get('phy') == '5': #802.11a
+                dict_a = parse(cap[index], dict_a)
+            elif cap[index]['WLAN_RADIO'].get('phy') == '7': #802.11n
+                dict_n = parse(cap[index], dict_n)
             else:
                 fd = open("catcher.txt", "a")
-                fd.write(wlan)
+                fd.write(cap[index])
                 fd.write('\n')
                 fd.close()
             index += 1
