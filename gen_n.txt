@@ -1,53 +1,53 @@
 {
-  "Count": 80, 
+  "Count": 120, 
   "Noise": {
-    "omitted": 74, 
-    "-87 dBm": 2, 
-    "-86 dBm": 4
+    "omitted": 111, 
+    "-87 dBm": 3, 
+    "-86 dBm": 6
   }, 
   "Retransmission": 2, 
   "Signal": {
-    "-63 dBm": 14, 
-    "-66 dBm": 2, 
-    "-69 dBm": 4, 
-    "-62 dBm": 14, 
-    "omitted": 6, 
-    "-67 dBm": 12, 
-    "-68 dBm": 18, 
-    "-64 dBm": 6, 
-    "-60 dBm": 4
+    "-63 dBm": 21, 
+    "-66 dBm": 3, 
+    "-69 dBm": 6, 
+    "-62 dBm": 21, 
+    "omitted": 9, 
+    "-67 dBm": 18, 
+    "-68 dBm": 27, 
+    "-64 dBm": 9, 
+    "-60 dBm": 6
   }, 
   "rate": {
-    "omitted": 74, 
-    "243.0 Mb/s": 2, 
-    "324.0 Mb/s": 2, 
-    "150.0 Mb/s": 2
+    "omitted": 111, 
+    "243.0 Mb/s": 3, 
+    "324.0 Mb/s": 3, 
+    "150.0 Mb/s": 3
   }, 
   "Bandwidth": {
-    "omitted": 74, 
-    "40 MHz (1)": 6
+    "omitted": 111, 
+    "40 MHz (1)": 9
   }, 
   "Frequency": {
-    "omitted": 74, 
-    "5745 MHz": 6
+    "omitted": 111, 
+    "5745 MHz": 9
   }, 
   "SNR": {
-    "omitted": 80
+    "omitted": 120
   }, 
   "Duration": {
-    "43 us": 2, 
-    "48 us": 2, 
-    "39 us": 2, 
-    "68 us": 4, 
-    "64 us": 4, 
-    "60 us": 6, 
-    "47 us": 4, 
-    "52 us": 8, 
-    "100 us": 2, 
-    "56 us": 38, 
-    "55 us": 8
+    "43 us": 3, 
+    "48 us": 3, 
+    "39 us": 3, 
+    "68 us": 6, 
+    "64 us": 6, 
+    "60 us": 9, 
+    "47 us": 6, 
+    "52 us": 12, 
+    "100 us": 3, 
+    "56 us": 57, 
+    "55 us": 12
   }, 
   "Channel": {
-    "149": 80
+    "149": 120
   }
 }
