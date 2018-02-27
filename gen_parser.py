@@ -199,7 +199,7 @@ def main():
             wlan = str(cap[index][1])
             radiotap = str(cap[index][0]).split('\n')
             for line in radiotap:
-                if 'Flags: ' in line:
+                if line.startswith("Flags: "):
                     flag_code = line.split(' ')[1]
                     flag_byte = int(flag_code[-1])
                     if flag_byte >= 8:
