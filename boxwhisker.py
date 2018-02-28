@@ -1,6 +1,7 @@
 import plotly.plotly as ply
 import plotly.graph_objs as go
 import json
+import math
 
 data_a = json.load(open("dur_a.txt"))
 #data_n = json.load(open(duration_n.txt))
@@ -11,12 +12,13 @@ a_y = []
 avg_x = []
 avg_y = []
 
-currSum = 0
-currTotal = 0
+
 
 mapping = {}
 
 for duration in data_a:
+    currSum = 0
+    currTotal = 0
     if duration == "omitted":
         continue
 
@@ -35,17 +37,17 @@ avg_x.sort()
 for i in range(len(avg_x)):
     avg_y[i] = mapping[avg_x[i]]
 
-trace_a_box_whisker = {
-    'x' : 'a_x',
-    'y' : 'a_y',
-    'name' : 'SNRs for 802.11a',
-    'marker' : {
-        'color' : 'rgba(65, 135, 245, .5)'
-    },
-    'boxmean' : False,
-    'type' : 'box',
-    'orientation' : 'h'
-}
+trace_a_box_whisker = go.Box(
+    x = a_x,
+    y = a_y,
+    name = 'SNRs for 802.11a',
+    marker = dict(
+        color = 'rgba(65, 135, 245, .5)'
+    ),
+    boxmean = True,
+    type = 'box',
+    orientation = 'h'
+)
 
 trace_a_line = go.Scatter(
     x = avg_x,
@@ -60,13 +62,12 @@ trace_a_line = go.Scatter(
     )
 )
 
-data = [trace_a_box_whisker]
+data = [trace_a_box_whisker, trace_a_line]
 
 layout = dict(  title = 'Duration vs Average SNR',
-                xaxis = dict(title = 'Average SNR'),
-                yaxis = dict(title = 'Duration')
+                xaxis = dict(title = 'Average SNR', type='log', autorange=True),
+                yaxis = dict(title = 'Duration', type='log', autorange=True)
             )
 
 fig = dict(data=data, layout=layout)
-ply.iplot(fig, filename='Duration vs Average SNR Box and Whisker')
-
+ply.iplot(fig, filename='Log-Duration vs Average SNR Box and Whisker + line')
