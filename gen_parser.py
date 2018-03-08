@@ -5,7 +5,7 @@ from pathlib import Path
 
 output_a = 'gen_a.txt'
 output_n = 'gen_n.txt'
-
+output_g = 'gen_g.txt'
 
 
 def parse(packet, d):
@@ -69,13 +69,15 @@ def main():
 
     cap = pyshark.FileCapture(capture)
 
-    index = 0
+    index = 4290
 
     # Check if files exist already
     # If they do we will just add the new data to them
     # Otherwise create the files
     a_path = Path(output_a)
     n_path = Path(output_n)
+    g_path = Path(output_g)
+
     if a_path.is_file():
         fa = open(output_a, 'r')
         dict_a = json.load(fa)
@@ -89,6 +91,7 @@ def main():
         dict_a['Data_rate'] = {}
         dict_a['Duration'] = {}
         dict_a['SNR'] = {}
+
     if n_path.is_file():
         fn = open(output_n, 'r')
         dict_n = json.load(fn)
@@ -103,22 +106,38 @@ def main():
         dict_n['Duration'] = {}
         dict_n['SNR'] = {}
 
+    if g_path.is_file():
+        fg = open(output_g, 'r')
+        dict_g = json.load(fg)
+        fg.close()
+    else:
+        dict_g = {}
+        dict_g['fc_retry'] = 0
+        dict_g['Count'] = 0
+        dict_g['Signal_dbm'] = {}
+        dict_g['Noise_dbm'] = {}
+        dict_g['Data_rate'] = {}
+        dict_g['Duration'] = {}
+        dict_g['SNR'] = {}
+
+
     while True:
         try:
-
             # Keep track of how many we've done in case of failure
             if (index % 10 == 0):
                 ft = open("tracker.txt", "w")
                 ft.write(str(index))
                 ft.close()
             
-            if cap[index]['WLAN_RADIO'].get('phy') == '5': #802.11a
+            if cap[index]['WLAN_RADIO'].get('phy') == '5':      #802.11a
                 dict_a = parse(cap[index], dict_a)
-            elif cap[index]['WLAN_RADIO'].get('phy') == '7': #802.11n
+            elif cap[index]['WLAN_RADIO'].get('phy') == '7':    #802.11n
                 dict_n = parse(cap[index], dict_n)
+            elif cap[index]['WLAN_RADIO'].get('phy') == '6':    #802.11g
+                dict_g = parse(cap[index], dict_g)
             else:
                 fd = open("catcher.txt", "a")
-                fd.write(cap[index])
+                fd.write(str(cap[index]['WLAN_RADIO']))
                 fd.write('\n')
                 fd.close()
             index += 1
@@ -140,6 +159,10 @@ def main():
     fa.write('\n')
     fa.close()
 
+    fg = open(output_g, "w")
+    fg.write(json.dumps(dict_g, indent=2))
+    fg.write('\n')
+    fg.close()
 
     return
     

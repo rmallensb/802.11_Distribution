@@ -3,9 +3,9 @@ import sys, os
 import json
 from pathlib import Path
 
-output_a = 'dur_a.txt'
-output_n = 'dur_n.txt'
-
+output_a = 'dur_a_10min.txt'
+output_n = 'dur_n_10min.txt'
+output_g = 'dur_g_10min.txt'
 
 
 def parse(packet, d):
@@ -93,6 +93,7 @@ def main():
     # Otherwise create the files
     a_path = Path(output_a)
     n_path = Path(output_n)
+    g_path = Path(output_g)
     if a_path.is_file():
         fa = open(output_a, 'r')
         dict_a = json.load(fa)
@@ -100,6 +101,7 @@ def main():
     else:
         dict_a = {}
         dict_a['omitted'] = 0
+
     if n_path.is_file():
         fn = open(output_n, 'r')
         dict_n = json.load(fn)
@@ -107,6 +109,14 @@ def main():
     else:
         dict_n = {}
         dict_n['omitted'] = 0
+
+    if g_path.is_file():
+        fg = open(output_g, 'r')
+        dict_a = json.load(fg)
+        fg.close()
+    else:
+        dict_g = {}
+        dict_g['omitted'] = 0
 
     while True:
         try:
@@ -117,13 +127,19 @@ def main():
                 ft.write(str(index))
                 ft.close()
             
-            if cap[index]['WLAN_RADIO'].get('phy') == '5': #802.11a
+            phy = cap[index]['WLAN_RADIO'].get('phy')
+            if type(phy) == type(None):
+                continue
+
+            if phy == '5':      #802.11a
                 dict_a = parse(cap[index], dict_a)
-            elif cap[index]['WLAN_RADIO'].get('phy') == '7': #802.11n
+            elif phy == '7':    #802.11n
                 dict_n = parse(cap[index], dict_n)
+            elif phy == '6':    #802.11g
+                dict_g = parse(cap[index], dict_g)
             else:
                 fd = open("catcher.txt", "a")
-                fd.write(cap[index])
+                fd.write(str(cap[index]['WLAN_RADIO']))
                 fd.write('\n')
                 fd.close()
             index += 1
@@ -145,6 +161,10 @@ def main():
     fa.write('\n')
     fa.close()
 
+    fg = open(output_g, "w")
+    fg.write(json.dumps(dict_g, indent=2))
+    fg.write('\n')
+    fg.close()
 
     return
     
