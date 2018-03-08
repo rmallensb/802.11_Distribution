@@ -69,7 +69,7 @@ def main():
 
     cap = pyshark.FileCapture(capture)
 
-    index = 0
+    index = 4290
 
     # Check if files exist already
     # If they do we will just add the new data to them
@@ -144,12 +144,12 @@ def main():
             print index
         except Exception as e:
             # print e
-            ft = open("tracker.txt", "w")
-            ft.write(str(index))
-            ft.close()
+            #ft = open("tracker.txt", "w")
+            #ft.write(str(index))
+            #ft.close()
             index+=1
-            print 'error at {0}: {1}'.format(index, e)
             # break
+            print 'error at {0}'.format(index)
     try:
         print 'Writing files...'
 

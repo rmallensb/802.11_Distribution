@@ -214,3 +214,5853 @@ Layer WLAN_RADIO:
 	TSF timestamp: 1808790708
 	Data rate: 44.0 Mb/s
 
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82730769
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82731371
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82876996
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82878107
+	Data rate: 68.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82972194
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83105522
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83106250
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83220161
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83591212
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83726551
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83909020
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84604739
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727367
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85057924
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85728251
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86029979
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86034724
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86393084
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86474987
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86479988
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86554622
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86555124
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86726565
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86924648
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87727619
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88728949
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89389975
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89551352
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89726630
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727236
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727236
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727357
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727357
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727481
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727481
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90697628
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727488
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727941
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727941
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728064
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728064
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728448
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91476226
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91509065
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91509723
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727435
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91989819
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92728308
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92730812
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92730812
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93288371
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93729636
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94727932
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95730239
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732451
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732451
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732558
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95903385
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95905388
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95905388
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95911906
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95911906
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 96737865
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 96738276
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727528
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 98727800
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99229894
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99610919
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727080
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727548
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727548
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99827429
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100727872
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101727392
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101727862
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102483987
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727270
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727894
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727894
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728014
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728014
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728125
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103480330
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103727377
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82730769
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82731371
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82876996
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82878107
+	Data rate: 68.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82972194
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83105522
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83106250
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83220161
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82730769
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82731371
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82876996
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82878107
+	Data rate: 68.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82972194
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83105522
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83106250
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83220161
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83591212
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83726551
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83909020
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84604739
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727367
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85057924
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85728251
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86029979
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86034724
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86393084
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86474987
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86479988
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86554622
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86555124
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86726565
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86924648
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87727619
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88728949
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89389975
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89551352
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89726630
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727236
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727236
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727357
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727357
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727481
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727481
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90697628
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727488
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727941
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727941
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728064
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728064
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728448
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91476226
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91509065
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91509723
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727435
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91989819
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92728308
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92730812
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92730812
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93288371
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93729636
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94727932
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95730239
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732451
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732451
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732558
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95903385
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95905388
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95905388
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95911906
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95911906
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 96737865
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 96738276
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727528
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 98727800
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99229894
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99610919
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727080
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727548
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727548
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99827429
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100727872
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101727392
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101727862
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102483987
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727270
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727894
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727894
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728014
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728014
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728125
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103480330
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103727377
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104480368
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727373
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104827384
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105726730
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727182
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726508
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 108738285
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 108739052
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 108739052
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109482659
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109731915
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109749651
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109912937
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110744427
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745438
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745438
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745557
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745557
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82730769
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82731371
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82876996
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82878107
+	Data rate: 68.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82972194
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83105522
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83106250
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83220161
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83591212
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83726551
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83909020
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84604739
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727367
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85057924
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85728251
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86029979
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86034724
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86393084
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86474987
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86479988
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86554622
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86555124
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86726565
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86924648
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87727619
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88728949
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89389975
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89551352
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89726630
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727236
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727236
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727357
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727357
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727481
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727481
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90697628
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727488
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727941
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727941
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728064
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728064
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728448
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91476226
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91509065
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91509723
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727435
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91989819
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92728308
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92730812
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92730812
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93288371
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93729636
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94727932
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95730239
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732451
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732451
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732558
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95903385
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95905388
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95905388
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95911906
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95911906
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 96737865
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 96738276
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727528
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 98727800
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99229894
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99610919
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727080
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727548
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727548
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99827429
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100727872
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101727392
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101727862
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102483987
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727270
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727894
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727894
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728014
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728014
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728125
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103480330
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103727377
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104480368
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727373
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104827384
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105726730
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727182
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726508
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 108738285
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 108739052
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 108739052
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109482659
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109731915
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109749651
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109912937
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110744427
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745438
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745438
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745557
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745557
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82730769
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82731371
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82876996
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82878107
+	Data rate: 68.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82972194
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83105522
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83106250
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83220161
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83591212
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83726551
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83909020
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84604739
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727367
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85057924
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85728251
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86029979
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86034724
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86393084
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86474987
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86479988
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86554622
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86555124
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86726565
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86924648
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87727619
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88728949
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89389975
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89551352
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89726630
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727236
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727236
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727357
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727357
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727481
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727481
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90697628
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727488
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727941
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727941
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728064
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728064
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728448
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91476226
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91509065
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91509723
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727435
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91989819
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92728308
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92730812
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92730812
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93288371
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82730769
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82731371
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82732381
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82876996
+	Data rate: 108.5 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82878107
+	Data rate: 68.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 82972194
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83105522
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83106250
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83220161
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83222100
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83591212
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83726551
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83734255
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83909020
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 83921045
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84604739
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727367
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 84727852
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85057924
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85728251
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 85732688
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86029979
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86034724
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86393084
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86474987
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86479988
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86554622
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86555124
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86726565
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86727078
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86924648
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 86926109
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87727619
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 87728353
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88728949
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 88729402
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89389975
+	Data rate: 108.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89551352
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89726630
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727236
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727236
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727357
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727357
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727481
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 89727481
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90697628
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727488
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727941
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90727941
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728064
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728064
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 90728448
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91476226
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91509065
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91509723
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727435
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91727836
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 91989819
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92728308
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92730812
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 92730812
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93288371
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93729636
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 93734118
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94727932
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 94729620
+	Data rate: 34.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95730239
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732451
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732451
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95732558
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95903385
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95905388
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95905388
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95911906
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 95911906
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 96737865
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 96738276
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727528
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 97727895
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 98727800
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99229894
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99610919
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727080
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727548
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99727548
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99728016
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 99827429
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100727872
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 100728395
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101727392
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101727862
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 101728682
+	Data rate: 88.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102483987
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727270
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727894
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102727894
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728014
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728014
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 102728125
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103480330
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103727377
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 103728132
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104480368
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727373
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104727773
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 104827384
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105726730
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 105727123
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727182
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 106727652
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726508
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 107726931
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 108738285
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 108739052
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 108739052
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109482659
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109731915
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109749651
+	Data rate: 115.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 109912937
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110744427
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745438
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745438
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745557
+	Data rate: 14.0 Mb/s
+
+Layer WLAN_RADIO:
+	Channel: 36
+	Frequency: 5180MHz
+	TSF timestamp: 110745557
+	Data rate: 14.0 Mb/s
+
