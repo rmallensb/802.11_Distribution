@@ -17,10 +17,6 @@ output_a = 'gen_a.txt'
 output_g = 'gen_g.txt'
 output_n = 'gen_n.txt'
 
-#os.system('touch {}'.format(output_a))
-#os.system('touch {}'.format(output_g))
-#os.system('touch {}'.format(output_n))
-
 a_lock = Lock()
 g_lock = Lock()
 n_lock = Lock()
@@ -40,7 +36,7 @@ def gen_template():
 
 
 def merger(d1, d2):
-    final = gt
+    final = gen_template()
     for key in d1.keys():
         # Need to go deeper to get actual values
         if type(d1.get(key)) == dict:
@@ -96,19 +92,19 @@ def write(d, type):
 def threader(pcap):
     (a, g, n) = splitter(pcap) 
 
-    # TODO: Figure out how to thread this
-    #       Threading inside a thread is weird, look into event loops
-    #ta = Thread(target=write, args=(a, 'a')).run()
-    #tg = Thread(target=write, args=(g, 'g')).run()
-    #tn = Thread(target=write, args=(n, 'n')).run()
+    ta = Thread(target=write, args=(a, 'a'))
+    ta.run()
+    tg = Thread(target=write, args=(g, 'g'))
+    tg.run()
+    tn = Thread(target=write, args=(n, 'n'))
+    tn.run()
 
-    #ta.join()
-    #tg.join()
-    #tn.join()
-
-    write(a, 'a')
-    write(g, 'g')
-    write(n, 'n')
+    if ta.is_alive():
+        ta.join()
+    if tg.is_alive():
+        tg.join()
+    if tn.is_alive():
+        tn.join()
 
 
 def splitter(path):
@@ -162,7 +158,7 @@ def main():
             for file in files:
                 path = '{0}{1}'.format(directory, file)
                 t = Thread(target=threader, args=(path,))
-                t.dameon = True
+                #t.dameon = True
                 t_list.append(t)
                 t.run()
 
