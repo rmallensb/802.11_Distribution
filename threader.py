@@ -1,21 +1,15 @@
 from threading import Thread, Lock
 import sys, os
 import pyshark
+import json
+from pathlib import Path
 
 from gen_parser import parse
 
 # This program takes as input a directory path
 # It will fork off a thread and parse every file capture located in the directory path
 
-# General parser template
-gt               = {}
-gt['Count']      = 0
-gt['fc_retry']   = 0
-gt['Signal_dbm'] = {}
-gt['Noise_dbm']  = {}
-gt['Data_rate']  = {}
-gt['Duration']   = {}
-gt['SNR']        = {}
+
 
 parsers = ['gen_parser.py']
 
@@ -23,9 +17,27 @@ output_a = 'gen_a.txt'
 output_g = 'gen_g.txt'
 output_n = 'gen_n.txt'
 
+#os.system('touch {}'.format(output_a))
+#os.system('touch {}'.format(output_g))
+#os.system('touch {}'.format(output_n))
+
 a_lock = Lock()
 g_lock = Lock()
 n_lock = Lock()
+
+def gen_template():
+    # General parser template
+    gt               = {}
+    gt['Count']      = 0
+    gt['fc_retry']   = 0
+    gt['Signal_dbm'] = {}
+    gt['Noise_dbm']  = {}
+    gt['Data_rate']  = {}
+    gt['Duration']   = {}
+    gt['SNR']        = {}
+
+    return gt
+
 
 def merger(d1, d2):
     final = gt
@@ -41,25 +53,43 @@ def merger(d1, d2):
 def write(d, type):
     if type == 'a':
         with a_lock:
-            with open(output_a, 'r') as fa:
-                data = json.load(fa)
-            new_data = merger(d, data)
+            path = Path(output_a)
+            if path.is_file():
+                with open(output_a, 'r') as fa:
+                    data = json.load(fa)
+                    new_data = merger(d, data)
+            else:
+                os.system('touch {}'.format(output_a))
+                new_data = d
+
             with open(output_a, 'w') as fa:
                 fa.write(json.dumps(new_data, indent=2))
 
     if type == 'g':
         with g_lock:
-            with open(output_g, 'r') as fg:
-                data = json.load(fg)
-            new_data = merger(d, data)
+            path = Path(output_g)
+            if path.is_file():
+                with open(output_g, 'r') as fg:
+                    data = json.load(fg)
+                    new_data = merger(d, data)
+            else:
+                os.system('touch {}'.format(output_g))
+                new_data = d
+
             with open(output_g, 'w') as fg:
                 fg.write(json.dumps(new_data, indent=2))
     
     if type == 'n':
         with n_lock:
-            with open(output_n, 'r') as fn:
-                data = json.load(fn)
-            new_data = merger(d, data)
+            path = Path(output_n)
+            if path.is_file():
+                with open(output_n, 'r') as fn:
+                    data = json.load(fn)
+                    new_data = merger(d, data)
+            else:
+                os.system('touch {}'.format(output_n))
+                new_data = d
+
             with open(output_n, 'w') as fn:
                 fn.write(json.dumps(new_data, indent=2))
 
@@ -78,16 +108,18 @@ def threader(pcap):
 
     write(a, 'a')
     write(g, 'g')
-    write(b, 'n')
+    write(n, 'n')
 
 
-def splitter(pcap):
+def splitter(path):
     # Add a guard to assign dict to correct template
     # Determined by a 'template' argument
-    dict_a = gt
-    dict_g = gt
-    dict_n = gt
+    dict_a = gen_template()
+    dict_g = gen_template()
+    dict_n = gen_template()
 
+    pcap  = pyshark.FileCapture(path)
+    index = 0
     for packet in pcap:
         try:
             if packet['WLAN_RADIO'].get('phy')   == '5':    #802.11a
@@ -100,8 +132,16 @@ def splitter(pcap):
                 with open('catcher.txt', 'a') as fd:
                     fd.write(str(packet['WLAN_RADIO']))
                     fd.write('\n')
+            index += 1
         except Exception as e:
             print 'error at {0}: {1}'.format(index, e)
+
+    #print ('Here is a: {}'.format(str(dict_a)))
+    #print '\n'
+    #print ('Here is g: {}'.format(str(dict_g)))
+    #print '\n'
+    #print ('Here is n: {}'.format(str(dict_n)))
+    #print '\n'   
 
     return (dict_a, dict_g, dict_n)
 
@@ -116,20 +156,19 @@ def main():
     # List of threads to join on
     t_list = []
 
-    print directory
-
     # Kick off the parser threads
     for script in parsers:
         for root, dirs, files in os.walk(directory):
             for file in files:
-                capture = '{0}{1}'.format(directory, file)
-                cap = pyshark.FileCapture(capture)
-                t = Thread(target=threader, args=(cap))
+                path = '{0}{1}'.format(directory, file)
+                t = Thread(target=threader, args=(path,))
+                t.dameon = True
                 t_list.append(t)
-                t.start()
+                t.run()
 
     for thread in t_list:
-        thread.join()
+        if thread.is_alive():
+            thread.join()
                 
 
     
