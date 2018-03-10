@@ -28,13 +28,25 @@ def gen_template():
 
     return gt
 
+def dur_template():
+    dt = {}
+    dt['omitted'] = 0
+
+    return dt
+
 
 def merger(d1, d2):
     final = gen_template()
-    for key in d1.keys():
-        # Need to go deeper to get actual values
-        if type(d1.get(key)) == dict:
-            final[key] = {k : d1[key].get(k, 0) + d2[key].get(k, 0) for k in set(d1[key].keys()) | set(d2[key].keys())}
+    for key in set(d1.keys()) | set(d2.keys()):
+        if type(d1.get(key)) == dict or type(d2.get(key)) == dict:
+            
+            value1 = d1.get(key, {})
+            value2 = d2.get(key, {})
+            for nkey in set(value1.keys()) | set(value2.keys()):
+                if type(value1.get(nkey)) == dict or type(value2.get(nkey)) == dict:
+                    final[key][nkey] = {k : d1[key][nkey].get(k, 0) + d2[key][nkey].get(k, 0) for k in set(d1[key][nkey].keys()) | set(d2[key][nkey].keys())}
+                else:
+                    final[key][nkey] = d1[key].get(nkey, 0) + d2[key].get(nkey, 0)
         else:
             final[key] = d1.get(key, 0) + d2.get(key, 0)    
 
