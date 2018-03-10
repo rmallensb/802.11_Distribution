@@ -3,7 +3,7 @@ import plotly.graph_objs as go
 import json
 import math
 
-data_a = json.load(open("dur_a.txt"))
+data_a = json.load(open("dur_a_10min.txt"))
 #data_n = json.load(open(duration_n.txt))
 
 a_x = []
@@ -65,8 +65,8 @@ trace_a_line = go.Scatter(
 data = [trace_a_box_whisker, trace_a_line]
 
 layout = dict(  title = 'Duration vs Average SNR',
-                xaxis = dict(title = 'Average SNR', type='log', autorange=True),
-                yaxis = dict(title = 'Duration', type='log', autorange=True)
+                xaxis = dict(title = 'Average SNR', autorange=True),
+                yaxis = dict(title = 'Duration', autorange=True)
             )
 
 fig = dict(data=data, layout=layout)
