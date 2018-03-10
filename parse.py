@@ -2,18 +2,31 @@ import sys, os
 import pyshark
 import json
 from pathlib import Path
+from optparse import OptionParser
 
-from gen_parser import parse
+from gen_parser import parse as gp
+from dur_parser import parse as dp
 
 # This program takes as input a directory path
 # It will fork off a thread and parse every file capture located in the directory path
 
-parsers = ['gen_parser.py']
+def get_output_names(type):
+    a  = '{}_a'.format(type)
+    g  = '{}_g'.format(type)
+    n  = '{}_n'.format(type)
+    ac = '{}_ac'.format(type)
 
-output_a = 'gen_a.txt'
-output_g = 'gen_g.txt'
-output_n = 'gen_n.txt'
+    print (a, g, n, ac)
+    return (a, g, n, ac)
 
+def get_dicts(type):
+    if type == 'gen':
+        return gen_template()
+    elif type == 'dur':
+        return dur_template()
+    else:
+        print 'Invalid type, exiting.'
+        exit(1)
 
 # General parser template
 def gen_template():
@@ -28,6 +41,7 @@ def gen_template():
 
     return gt
 
+# Duration parser template
 def dur_template():
     dt = {}
     dt['omitted'] = 0
@@ -52,98 +66,119 @@ def merger(d1, d2):
 
     return final
 
-def write(d, type):
-    if type == 'a':
-        path = Path(output_a)
-        if path.is_file():
-            with open(output_a, 'r') as fa:
-                data = json.load(fa)
-                new_data = merger(d, data)
-        else:
-            os.system('touch {}'.format(output_a))
-            new_data = d
-
-        with open(output_a, 'w') as fa:
-            fa.write(json.dumps(new_data, indent=2))
-
-    if type == 'g':
-        path = Path(output_g)
-        if path.is_file():
-            with open(output_g, 'r') as fg:
-                data = json.load(fg)
-                new_data = merger(d, data)
-        else:
-            os.system('touch {}'.format(output_g))
-            new_data = d
-
-        with open(output_g, 'w') as fg:
-            fg.write(json.dumps(new_data, indent=2))
+def write(d, out_file):
     
-    if type == 'n':
-        path = Path(output_n)
-        if path.is_file():
-            with open(output_n, 'r') as fn:
-                data = json.load(fn)
-                new_data = merger(d, data)
-        else:
-            os.system('touch {}'.format(output_n))
-            new_data = d
+    path = Path(out_file)
+    if path.is_file():
+        with open(out_file, 'r') as f:
+            data = json.load(fa)
+            new_data = merger(d, data)
+    else:
+        os.system('touch {}'.format(out_file))
+        new_data = d
 
-        with open(output_n, 'w') as fn:
-            fn.write(json.dumps(new_data, indent=2))
-
-def threader(pcap):
-    (a, g, n) = splitter(pcap) 
-
-    write(a, 'a')
-    write(g, 'g')
-    write(n, 'n')
+    with open(out_file, 'w') as f:
+        f.write(json.dumps(new_data, indent=2))
 
 
-def splitter(path):
+def threader(pcap, script):
+    (a, g, n, ac) = splitter(pcap, script) 
+
+    (out_a, out_g, out_n, out_ac) = get_output_names(script)
+
+    write(a, out_a)
+    write(g, out_g)
+    write(n, out_n)
+    write(ac, out_ac)
+
+
+def splitter(path, script):
     # Add a guard to assign dict to correct template
     # Determined by a 'template' argument
-    dict_a = gen_template()
-    dict_g = gen_template()
-    dict_n = gen_template()
+    
+    dict_a  = get_dicts(script)
+    dict_g  = get_dicts(script)
+    dict_n  = get_dicts(script)
+    dict_ac = get_dicts(script)
 
     pcap  = pyshark.FileCapture(path)
     index = 0
     for packet in pcap:
         try:
             if packet['WLAN_RADIO'].get('phy')   == '5':    #802.11a
-                dict_a = parse(packet, dict_a)
+                if (script == 'gen'):
+                    dict_a  = gp(packet, dict_a)
+                else:
+                    dict_a = dp(packet, dict_a)
             elif packet['WLAN_RADIO'].get('phy') == '6':    #802.11g
-                dict_g = parse(packet, dict_g)
+                if (script == 'gen'):
+                    dict_g = gp(packet, dict_g)
+                else:
+                    dict_g  = dp(packet, dict_g)
             elif packet['WLAN_RADIO'].get('phy') == '7':    #802.11n
-                dict_n = parse(packet, dict_n)
+                if (script == 'gen'):
+                    dict_n = gp(packet, dict_g)
+                else:
+                    dict_n = dp(packet, dict_n)
+            elif packet['WLAN_RADIO'].get('phy') == '8':    #802.11ac
+                if (script == 'gen'):
+                    dict_ac = gp(packet, dict_ac)
+                else:
+                    dict_ac = dp(packet, dict_ac)
             else:
                 with open('catcher.txt', 'a') as fd:
                     fd.write(str(packet['WLAN_RADIO']))
                     fd.write('\n')
-            index += 1
         except Exception as e:
-            print 'error at {0}: {1}'.format(index, e)
+            print 'error at {}: {}'.format(index, e)
+        index += 1
 
-    return (dict_a, dict_g, dict_n)
+    return (dict_a, dict_g, dict_n, dict_ac)
 
 
 def main():
-    try:
-        directory = sys.argv[1]
-    except:
-        print( "Usage: python {} pcap_file".format(sys.argv[0]))
-        exit(1)
+    parser = OptionParser(usage="usage: python {} [options] -p".format(sys.argv[0]),
+                          version="%prog v0.1")
+    
+    parser.add_option("-p", "--pcaps",
+                      dest="directory",
+                      help="Directoring containing only pcap files")
 
-    # List of threads to join on
-    t_list = []
+    parser.add_option("-a", "--all",
+                      action='store_true',
+                      help="Run all parser scripts")
+
+    parser.add_option("-g", "--gen",
+                      action='store_true',
+                      help="Run the general parser script")
+
+    parser.add_option("-d", "--dur",
+                      action='store_true',
+                      help="Run the duration parser script")
+
+
+    (options, args) = parser.parse_args()
+
+    directory = options.directory
+    all       = bool(options.all)
+    gen       = bool(options.gen)
+    dur       = bool(options.dur)
+
+    parsers = []
+    if all:
+        gen = True
+        dur = True
+    if gen:
+        parsers.append('gen')
+    if dur:
+        parsers.append('dur')
 
     # Kick off the parser threads
     for script in parsers:
         for root, dirs, files in os.walk(directory):
             for file in files:
                 path = '{0}{1}'.format(directory, file)
-                threader(path)
+                threader(path, script)
 
     
     print 'Done.'
