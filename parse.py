@@ -11,13 +11,12 @@ from rate_parser import parse as rp
 # This program takes as input a directory path
 # It will fork off a thread and parse every file capture located in the directory path
 
-def get_output_names(type):
-    a  = '{}_a'.format(type)
-    g  = '{}_g'.format(type)
-    n  = '{}_n'.format(type)
-    ac = '{}_ac'.format(type)
+def get_output_names(type, output):
+    a  = '{}_{}_a'.format(output, type)
+    g  = '{}_{}_g'.format(output, type)
+    n  = '{}_{}_n'.format(output, type)
+    ac = '{}_{}_ac'.format(output, type)
 
-    print (a, g, n, ac)
     return (a, g, n, ac)
 
 def get_dicts(type):
@@ -81,10 +80,10 @@ def write(d, out_file):
         f.write(json.dumps(new_data, indent=2))
 
 
-def threader(pcap, script):
+def threader(pcap, script, output):
     (a, g, n, ac) = splitter(pcap, script) 
 
-    (out_a, out_g, out_n, out_ac) = get_output_names(script)
+    (out_a, out_g, out_n, out_ac) = get_output_names(script, output)
 
     write(a, out_a)
     write(g, out_g)
@@ -108,7 +107,7 @@ def splitter(path, script):
         if index % 100 == 0:
             catcher.write(path)
             catcher.write(script)
-            catcher.write(i)
+            catcher.write(str(index))
                 
         try:
             if packet['WLAN_RADIO'].get('phy')   == '5':    #802.11a
@@ -175,6 +174,11 @@ def main():
                       action='store_true',
                       help="Run the data_rate parser script")
 
+    parser.add_option("-o", "--output",
+                      dest="output",
+                      default="out",
+                      help="Naming style for output files. ex {output}_gen_a")
+
     (options, args) = parser.parse_args()
 
     directory = options.directory
@@ -182,6 +186,7 @@ def main():
     gen       = bool(options.gen)
     dur       = bool(options.dur)
     rate      = bool(options.rate)
+    output    = options.output
 
     if not gen and not dur and not rate:
         all = True
@@ -203,8 +208,7 @@ def main():
         for root, dirs, files in os.walk(directory):
             for file in files:
                 path = '{0}{1}'.format(directory, file)
-                threader(path, script)
-
+                threader(path, script, output)
     
     print 'Done.'
     exit(0)
