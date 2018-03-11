@@ -57,9 +57,9 @@ def merger(d1, d2):
             value2 = d2.get(key, {})
             for nkey in set(value1.keys()) | set(value2.keys()):
                 if type(value1.get(nkey)) == dict or type(value2.get(nkey)) == dict:
-                    final[key][nkey] = {k : d1[key][nkey].get(k, 0) + d2[key][nkey].get(k, 0) for k in set(d1[key][nkey].keys()) | set(d2[key][nkey].keys())}
+                    final.get(key, {})[nkey] = {k : value1.get(nkey, {}).get(k, 0) + value2.get(nkey, {}).get(k, 0) for k in set(value1.get(nkey, {}).keys()) | set(value2.get(nkey, {}).keys())}
                 else:
-                    final[key][nkey] = d1[key].get(nkey, 0) + d2[key].get(nkey, 0)
+                    final.get(key, {})[nkey] = value1.get(nkey, 0) + value2.get(nkey, 0)
         else:
             final[key] = d1.get(key, 0) + d2.get(key, 0)    
 
@@ -102,12 +102,16 @@ def splitter(path, script):
 
     pcap  = pyshark.FileCapture(path)
     index = 0
-    catcher = open('catcher.txt', 'w')
+    tracker = open('tracker.txt', 'w')
     for packet in pcap:
         if index % 100 == 0:
-            catcher.write(path)
-            catcher.write(script)
-            catcher.write(str(index))
+            os.system("echo '' > tracker.txt")
+            tracker.write(path)
+            tracker.write('\n')
+            tracker.write(script)
+            tracker.write('\n')
+            tracker.write(str(index))
+            tracker.flush()
                 
         try:
             if packet['WLAN_RADIO'].get('phy')   == '5':    #802.11a
