@@ -4,8 +4,9 @@ import json
 from pathlib import Path
 from optparse import OptionParser
 
-from gen_parser import parse as gp
-from dur_parser import parse as dp
+from gen_parser  import parse as gp
+from dur_parser  import parse as dp
+from rate_parser import parse as rp
 
 # This program takes as input a directory path
 # It will fork off a thread and parse every file capture located in the directory path
@@ -22,8 +23,8 @@ def get_output_names(type):
 def get_dicts(type):
     if type == 'gen':
         return gen_template()
-    elif type == 'dur':
-        return dur_template()
+    elif type == 'dur' or type == 'rate':
+        return cat_template()
     else:
         print 'Invalid type, exiting.'
         exit(1)
@@ -42,12 +43,11 @@ def gen_template():
     return gt
 
 # Duration parser template
-def dur_template():
+def cat_template():
     dt = {}
     dt['omitted'] = 0
 
     return dt
-
 
 def merger(d1, d2):
     final = gen_template()
@@ -71,7 +71,7 @@ def write(d, out_file):
     path = Path(out_file)
     if path.is_file():
         with open(out_file, 'r') as f:
-            data = json.load(fa)
+            data = json.load(f)
             new_data = merger(d, data)
     else:
         os.system('touch {}'.format(out_file))
@@ -104,27 +104,40 @@ def splitter(path, script):
     pcap  = pyshark.FileCapture(path)
     index = 0
     for packet in pcap:
+        if index % 100 == 0:
+            with open('catcher.txt', 'w') as f:
+                f.write(pcap)
+                f.write(i)
+                
         try:
             if packet['WLAN_RADIO'].get('phy')   == '5':    #802.11a
-                if (script == 'gen'):
+                if script == 'gen':
                     dict_a  = gp(packet, dict_a)
-                else:
+                elif script == 'dur':
                     dict_a = dp(packet, dict_a)
+                else:
+                    dict_a = rp(packet, dict_a)
             elif packet['WLAN_RADIO'].get('phy') == '6':    #802.11g
-                if (script == 'gen'):
+                if script == 'gen':
                     dict_g = gp(packet, dict_g)
-                else:
+                elif script == 'dur':
                     dict_g  = dp(packet, dict_g)
+                else:
+                    dict_g = rp(packet, dict_g)
             elif packet['WLAN_RADIO'].get('phy') == '7':    #802.11n
-                if (script == 'gen'):
+                if script == 'gen':
                     dict_n = gp(packet, dict_g)
-                else:
+                elif script == 'dur':
                     dict_n = dp(packet, dict_n)
-            elif packet['WLAN_RADIO'].get('phy') == '8':    #802.11ac
-                if (script == 'gen'):
-                    dict_ac = gp(packet, dict_ac)
                 else:
+                    dict_n = rp(packet, dict_n)
+            elif packet['WLAN_RADIO'].get('phy') == '8':    #802.11ac
+                if script == 'gen':
+                    dict_ac = gp(packet, dict_ac)
+                elif script == 'dur':
                     dict_ac = dp(packet, dict_ac)
+                else:
+                    dict_ac = rp(packet, dict_ac)
             else:
                 with open('catcher.txt', 'a') as fd:
                     fd.write(str(packet['WLAN_RADIO']))
@@ -146,7 +159,7 @@ def main():
 
     parser.add_option("-a", "--all",
                       action='store_true',
-                      help="Run all parser scripts")
+                      help="Run all parser scripts (default)")
 
     parser.add_option("-g", "--gen",
                       action='store_true',
@@ -156,6 +169,9 @@ def main():
                       action='store_true',
                       help="Run the duration parser script")
 
+    parser.add_option("-r", "--rate",
+                      action='store_true',
+                      help="Run the data_rate parser script")
 
     (options, args) = parser.parse_args()
 
@@ -163,15 +179,22 @@ def main():
     all       = bool(options.all)
     gen       = bool(options.gen)
     dur       = bool(options.dur)
+    rate      = bool(options.rate)
+
+    if not gen and not dur and not rate:
+        all = True
 
     parsers = []
     if all:
-        gen = True
-        dur = True
+        gen  = True
+        dur  = True
+        rate = True
     if gen:
         parsers.append('gen')
     if dur:
         parsers.append('dur')
+    if rate:
+        parsers.append('rate')
 
     # Kick off the parser threads
     for script in parsers:
