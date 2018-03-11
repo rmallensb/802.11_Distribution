@@ -106,7 +106,7 @@ def splitter(path, script):
     catcher = open('catcher.txt', 'w')
     for packet in pcap:
         if index % 100 == 0:
-            catcher.write(pcap)
+            catcher.write(path)
             catcher.write(script)
             catcher.write(i)
                 
