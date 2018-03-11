@@ -150,7 +150,7 @@ def splitter(path, script):
             print 'error at {}: {}'.format(index, e)
         index += 1
 
-    catcher.close()
+    tracker.close()
     return (dict_a, dict_g, dict_n, dict_ac)
 
 
