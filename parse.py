@@ -103,12 +103,12 @@ def splitter(path, script):
 
     pcap  = pyshark.FileCapture(path)
     index = 0
+    catcher = open('catcher.txt', 'w')
     for packet in pcap:
         if index % 100 == 0:
-            with open('catcher.txt', 'w') as f:
-                f.write(pcap)
-                f.write(script)
-                f.write(i)
+            catcher.write(pcap)
+            catcher.write(script)
+            catcher.write(i)
                 
         try:
             if packet['WLAN_RADIO'].get('phy')   == '5':    #802.11a
@@ -147,6 +147,7 @@ def splitter(path, script):
             print 'error at {}: {}'.format(index, e)
         index += 1
 
+    catcher.close()
     return (dict_a, dict_g, dict_n, dict_ac)
 
 
