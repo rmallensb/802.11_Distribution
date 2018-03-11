@@ -85,10 +85,10 @@ def threader(pcap, script, output):
 
     (out_a, out_g, out_n, out_ac) = get_output_names(script, output)
 
-    write(a, out_a)
-    write(g, out_g)
+    #write(a, out_a)
+    #write(g, out_g)
     write(n, out_n)
-    write(ac, out_ac)
+    #write(ac, out_ac)
 
 
 def splitter(path, script):
@@ -115,6 +115,7 @@ def splitter(path, script):
                 
         try:
             if packet['WLAN_RADIO'].get('phy')   == '5':    #802.11a
+                continue
                 if script == 'gen':
                     dict_a  = gp(packet, dict_a)
                 elif script == 'dur':
@@ -122,6 +123,7 @@ def splitter(path, script):
                 else:
                     dict_a = rp(packet, dict_a)
             elif packet['WLAN_RADIO'].get('phy') == '6':    #802.11g
+                continue
                 if script == 'gen':
                     dict_g = gp(packet, dict_g)
                 elif script == 'dur':
@@ -136,6 +138,7 @@ def splitter(path, script):
                 else:
                     dict_n = rp(packet, dict_n)
             elif packet['WLAN_RADIO'].get('phy') == '8':    #802.11ac
+                continue
                 if script == 'gen':
                     dict_ac = gp(packet, dict_ac)
                 elif script == 'dur':
@@ -213,11 +216,7 @@ def main():
             for file in files:
                 path = '{0}{1}'.format(directory, file)
                 threader(path, script, output)
-   
-    with open('tracker.txt', 'a') as f:
-        f.write('\n')
-        f.write(files)
-
+    
     print 'Done.'
     exit(0)
 
