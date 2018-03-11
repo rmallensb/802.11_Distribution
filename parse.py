@@ -107,6 +107,7 @@ def splitter(path, script):
         if index % 100 == 0:
             with open('catcher.txt', 'w') as f:
                 f.write(pcap)
+                f.write(script)
                 f.write(i)
                 
         try:
