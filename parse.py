@@ -25,7 +25,7 @@ def get_dicts(type):
     elif type == 'dur' or type == 'rate':
         return cat_template()
     else:
-        print 'Invalid type, exiting.'
+        print 'Invalid type [{}], exiting.'.format(type)
         exit(1)
 
 # General parser template
@@ -48,30 +48,40 @@ def cat_template():
 
     return dt
 
-def merger(d1, d2):
-    final = gen_template()
+def merger(d1, d2, type):
+    final = get_dicts(type)
     for key in set(d1.keys()) | set(d2.keys()):
-        if type(d1.get(key)) == dict or type(d2.get(key)) == dict:
+        if type(d1.get(key)) == dict or type(d2.get(key)) == dict:  
+            v1 = d1.get(key, {})
+            v2 = d2.get(key, {})
             
-            value1 = d1.get(key, {})
-            value2 = d2.get(key, {})
-            for nkey in set(value1.keys()) | set(value2.keys()):
-                if type(value1.get(nkey)) == dict or type(value2.get(nkey)) == dict:
-                    final.get(key, {})[nkey] = {k : value1.get(nkey, {}).get(k, 0) + value2.get(nkey, {}).get(k, 0) for k in set(value1.get(nkey, {}).keys()) | set(value2.get(nkey, {}).keys())}
-                else:
-                    final.get(key, {})[nkey] = value1.get(nkey, 0) + value2.get(nkey, 0)
+            if key in d1 and key in d2:
+                final[key] = {}
+                
+                for nkey in set(v1.keys()) | get(v2.keys()):
+                    if nkey in v1 and nkey in v2:
+                        final[key][nkey] = {k : v1.get(nkey, {}).get(k,0) + v2.get(nkey, {}).get(k,0) for k in set(v1.get(nkey, {}).keys()) | set(v2.get(nkey, {}).keys())}
+
+                    else:
+                        if nkey in v1:
+                            final[key][nkey] = v1.get(nkey)
+                        else:
+                            final[key][nkey] = v2.get(nkey)
+
         else:
-            final[key] = d1.get(key, 0) + d2.get(key, 0)    
+            final[key] = d1.get(key, 0) + d2.get(key, 0)
+
+
 
     return final
 
-def write(d, out_file):
+def write(d, out_file, type):
     
     path = Path(out_file)
     if path.is_file():
         with open(out_file, 'r') as f:
             data = json.load(f)
-            new_data = merger(d, data)
+            new_data = merger(d, data, type)
     else:
         os.system('touch {}'.format(out_file))
         new_data = d
@@ -85,10 +95,10 @@ def threader(pcap, script, output):
 
     (out_a, out_g, out_n, out_ac) = get_output_names(script, output)
 
-    write(a, out_a)
-    write(g, out_g)
-    write(n, out_n)
-    write(ac, out_ac)
+    write(a,  out_a,  script)
+    write(g,  out_g,  script)
+    write(n,  out_n,  script)
+    write(ac, out_ac, script)
 
 
 def splitter(path, script):
@@ -151,6 +161,7 @@ def splitter(path, script):
         index += 1
 
     tracker.close()
+    
     return (dict_a, dict_g, dict_n, dict_ac)
 
 
