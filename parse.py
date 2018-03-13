@@ -48,8 +48,8 @@ def cat_template():
 
     return dt
 
-def merger(d1, d2, type):
-    final = get_dicts(type)
+def merger(d1, d2, script):
+    final = get_dicts(script)
     for key in set(d1.keys()) | set(d2.keys()):
         if type(d1.get(key)) == dict or type(d2.get(key)) == dict:  
             v1 = d1.get(key, {})
@@ -58,15 +58,26 @@ def merger(d1, d2, type):
             if key in d1 and key in d2:
                 final[key] = {}
                 
-                for nkey in set(v1.keys()) | get(v2.keys()):
-                    if nkey in v1 and nkey in v2:
-                        final[key][nkey] = {k : v1.get(nkey, {}).get(k,0) + v2.get(nkey, {}).get(k,0) for k in set(v1.get(nkey, {}).keys()) | set(v2.get(nkey, {}).keys())}
+                for nkey in set(v1.keys()) | set(v2.keys()):
+                    if type(v1.get(nkey)) == dict or type(v2.get(nkey)) == dict:
+                        
+                        if nkey in v1 and nkey in v2:
+                            final[key][nkey] = {k : v1.get(nkey, {}).get(k,0) + v2.get(nkey, {}).get(k,0) for k in set(v1.get(nkey, {}).keys()) | set(v2.get(nkey, {}).keys())}
+
+                        else:
+                            if nkey in v1:
+                                final[key][nkey] = v1.get(nkey)
+                            else:
+                                final[key][nkey] = v2.get(nkey)
 
                     else:
-                        if nkey in v1:
-                            final[key][nkey] = v1.get(nkey)
-                        else:
-                            final[key][nkey] = v2.get(nkey)
+                        final[key][nkey] = v1.get(nkey, 0) + v2.get(nkey, 0)
+
+            else:
+                if key in d1:
+                    final[key] = v1
+                else:
+                    final[key] = v2
 
         else:
             final[key] = d1.get(key, 0) + d2.get(key, 0)
@@ -75,13 +86,13 @@ def merger(d1, d2, type):
 
     return final
 
-def write(d, out_file, type):
+def write(d, out_file, script):
     
     path = Path(out_file)
     if path.is_file():
         with open(out_file, 'r') as f:
             data = json.load(f)
-            new_data = merger(d, data, type)
+            new_data = merger(d, data, script)
     else:
         os.system('touch {}'.format(out_file))
         new_data = d
