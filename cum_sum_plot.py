@@ -2,13 +2,14 @@ import plotly.plotly as ply
 import plotly.graph_objs as go
 import json
 import numpy as np 
+import sys, os
 
-data = json.load(open("gen_a.txt"))
+path = sys.argv[1]
+data = json.load(open(path))
 
 duration_dict = data['Duration']
 dur_x = [int(x) for x in duration_dict.keys()]
 dur_x.sort()
-#cum_sum_list = [int(duration_dict[dur]) for dur in dur_x]
 num_packets = 0
 cum_sum_list =[]
 for dur in dur_x:
@@ -17,11 +18,11 @@ for dur in dur_x:
 
 cum_sum = np.cumsum(cum_sum_list)
 dur_x = [int(x) for x in dur_x]
-print dur_x
-print
-print num_packets
-print
-print cum_sum
+#print dur_x
+#print
+#print num_packets
+#print
+#print cum_sum
 
 trace = go.Scatter(x=dur_x, y= [float(y)/num_packets for y in cum_sum],
                      marker=dict(color='rgb(150, 50, 120)'))
