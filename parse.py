@@ -3,6 +3,7 @@ import pyshark
 import json
 from pathlib import Path
 from optparse import OptionParser
+from multiprocessing import Process
 
 from gen_parser  import parse as gp
 from dur_parser  import parse as dp
@@ -230,13 +231,25 @@ def main():
     if rate:
         parsers.append('rate')
 
+    procs = []
+
     # Kick off the parser threads
     for script in parsers:
         for root, dirs, files in os.walk(directory):
             for file in files:
                 path = '{0}{1}'.format(directory, file)
-                threader(path, script, output)
-   
+                #threader(path, script, output)
+                p = Process(target=threader, args=(path, script, output))
+                procs.append(p)
+                p.start()
+                if len(procs) >= 4:
+                    for proc in procs:
+                        proc.join()
+                    del proc[:]
+
+    for proc in procs:
+        proc.join()
+    
     with open('tracker.txt', 'a') as f:
         f.write('\n')
         f.write(files)
