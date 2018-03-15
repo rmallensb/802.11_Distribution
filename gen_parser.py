@@ -3,7 +3,7 @@ import pyshark
 def parse(packet, d):
     
     # For cap['WLAN']
-    wlan_interest  = ['fc_retry']
+    wlan_interest  = ['fc_retry', 'fc_type']
     # For cap['WLAN_RADIO']
     radio_interest = ['Signal_dbm', 'Noise_dbm', 'Data_rate', 'Duration']
 
@@ -12,11 +12,17 @@ def parse(packet, d):
     snr_true = True
 
     for item in wlan_interest:
-        retry = packet['WLAN'].get(item)
-        if type(retry) == type(None):            
+        data = packet['WLAN'].get(item)
+        if type(data) == type(None):            
             continue
 
-        d[item] += int(retry)
+        if item == 'fc_retry':
+            d[item] += int(data)
+        elif item == 'fc_type':
+            if data in d[item]:
+                d[item][data] += 1
+            else:
+                d[item][data] = 1
    
     for item in radio_interest:
         data = packet['WLAN_RADIO'].get(item)
@@ -38,7 +44,8 @@ def parse(packet, d):
     if snr_true:
         signal = packet['WLAN_RADIO'].get('Signal_dbm')
         noise  = packet['WLAN_RADIO'].get('Noise_dbm')
-        snr = float(signal) / float(noise)
+        #snr = float(signal) / float(noise)
+        snr = float(noise) / float(signal)
 
         if snr in d['SNR']:
             d['SNR'][snr] += 1
