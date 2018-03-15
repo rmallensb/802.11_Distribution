@@ -7,9 +7,9 @@ import random
 
 datum = sys.argv[1:]
 traces = []
-
-for gen in datum:
-    data = json.load(open(gen))
+colors =['red', 'green', 'blue']
+for gen in range(len(datum)):
+    data = json.load(open(datum[gen]))
     duration_dict = data['Duration']
     dur_x = [int(x) for x in duration_dict.keys()]
     dur_x.sort()
@@ -26,11 +26,14 @@ for gen in datum:
     #print num_packets
     #print
     #print cum_sum
+    ''' 
     x = int(random.random() * 255)
     y = int(random.random() * 255)
     z = int(random.random() * 255)
+    color='rgb({}, {}, {})'.format(x,y,z))
+    '''
     traces.append(go.Scatter(x=dur_x, y= [float(y)/num_packets for y in cum_sum],
-                         marker=dict(color='rgb({}, {}, {})'.format(x,y,z))))
+                         marker=dict(color = colors[gen])))
 
 
 layout = go.Layout(
