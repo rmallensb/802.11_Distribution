@@ -7,7 +7,6 @@ from multiprocessing import Process
 from multiprocessing import Lock
 
 from gen_parser  import parse as gp
-from dur_parser  import parse as dp
 from rate_parser import parse as rp
 
 # This program takes as input a directory path
@@ -44,7 +43,7 @@ def gen_template():
 
     return gt
 
-# Duration parser template
+# Rate parser template
 def cat_template():
     dt = {}
     dt['omitted'] = 0
@@ -145,29 +144,21 @@ def splitter(path, script):
             if packet['WLAN_RADIO'].get('phy')   == '5':    #802.11a
                 if script == 'gen':
                     dict_a  = gp(packet, dict_a)
-                elif script == 'dur':
-                    dict_a = dp(packet, dict_a)
                 else:
                     dict_a = rp(packet, dict_a)
             elif packet['WLAN_RADIO'].get('phy') == '6':    #802.11g
                 if script == 'gen':
                     dict_g = gp(packet, dict_g)
-                elif script == 'dur':
-                    dict_g  = dp(packet, dict_g)
                 else:
                     dict_g = rp(packet, dict_g)
             elif packet['WLAN_RADIO'].get('phy') == '7':    #802.11n
                 if script == 'gen':
                     dict_n = gp(packet, dict_n)
-                elif script == 'dur':
-                    dict_n = dp(packet, dict_n)
                 else:
                     dict_n = rp(packet, dict_n)
             elif packet['WLAN_RADIO'].get('phy') == '8':    #802.11ac
                 if script == 'gen':
                     dict_ac = gp(packet, dict_ac)
-                elif script == 'dur':
-                    dict_ac = dp(packet, dict_ac)
                 else:
                     dict_ac = rp(packet, dict_ac)
             else:
@@ -199,10 +190,6 @@ def main():
                       action='store_true',
                       help="Run the general parser script")
 
-    parser.add_option("-d", "--dur",
-                      action='store_true',
-                      help="Run the duration parser script")
-
     parser.add_option("-r", "--rate",
                       action='store_true',
                       help="Run the data_rate parser script")
@@ -217,22 +204,18 @@ def main():
     directory = options.directory
     all       = bool(options.all)
     gen       = bool(options.gen)
-    dur       = bool(options.dur)
     rate      = bool(options.rate)
     output    = options.output
 
-    if not gen and not dur and not rate:
+    if not gen and not rate:
         all = True
 
     parsers = []
     if all:
         gen  = True
-        dur  = True
         rate = True
     if gen:
         parsers.append('gen')
-    if dur:
-        parsers.append('dur')
     if rate:
         parsers.append('rate')
 
