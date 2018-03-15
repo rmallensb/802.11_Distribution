@@ -3,34 +3,41 @@ import plotly.graph_objs as go
 import json
 import numpy as np 
 import sys, os
+import random
 
-path = sys.argv[1]
-data = json.load(open(path))
+datum = sys.argv[1:]
+traces = []
 
-duration_dict = data['Duration']
-dur_x = [int(x) for x in duration_dict.keys()]
-dur_x.sort()
-num_packets = 0
-cum_sum_list =[]
-for dur in dur_x:
-    cum_sum_list.append(int(duration_dict[str(dur)]))
-    num_packets += int(duration_dict[str(dur)])
+for gen in datum:
+    data = json.load(open(gen))
+    duration_dict = data['Duration']
+    dur_x = [int(x) for x in duration_dict.keys()]
+    dur_x.sort()
+    num_packets = 0
+    cum_sum_list =[]
+    for dur in dur_x:
+        cum_sum_list.append(int(duration_dict[str(dur)]))
+        num_packets += int(duration_dict[str(dur)])
 
-cum_sum = np.cumsum(cum_sum_list)
-dur_x = [int(x) for x in dur_x]
-#print dur_x
-#print
-#print num_packets
-#print
-#print cum_sum
+    cum_sum = np.cumsum(cum_sum_list)
+    dur_x = [int(x) for x in dur_x]
+    #print dur_x
+    #print
+    #print num_packets
+    #print
+    #print cum_sum
+    x = int(random.random() * 255)
+    y = int(random.random() * 255)
+    z = int(random.random() * 255)
+    traces.append(go.Scatter(x=dur_x, y= [float(y)/num_packets for y in cum_sum],
+                         marker=dict(color='rgb({}, {}, {})'.format(x,y,z))))
 
-trace = go.Scatter(x=dur_x, y= [float(y)/num_packets for y in cum_sum],
-                     marker=dict(color='rgb(150, 50, 120)'))
+
 layout = go.Layout(
     title="Cumulative Distribution Function"
 )
 
-fig = go.Figure(data=go.Data([trace]), layout=layout)
+fig = go.Figure(data=go.Data(traces), layout=layout)
 ply.iplot(fig, filename='cdf-dataset')
 
 '''
