@@ -33,6 +33,7 @@ def gen_template():
     gt               = {}
     gt['Count']      = 0
     gt['fc_retry']   = 0
+    gt['fc_type']    = {} 
     gt['Signal_dbm'] = {}
     gt['Noise_dbm']  = {}
     gt['Data_rate']  = {}
