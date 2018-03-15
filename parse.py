@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from optparse import OptionParser
 from multiprocessing import Process
+from multiprocessing import Lock
 
 from gen_parser  import parse as gp
 from dur_parser  import parse as dp
@@ -103,15 +104,19 @@ def write(d, out_file, script):
         f.write(json.dumps(new_data, indent=2))
 
 
-def threader(pcap, script, output):
+def threader(pcap, script, output, file_lock):
     (a, g, n, ac) = splitter(pcap, script) 
 
     (out_a, out_g, out_n, out_ac) = get_output_names(script, output)
+
+    file_lock.acquire(block=True, timeout=None)
 
     write(a,  out_a,  script)
     write(g,  out_g,  script)
     write(n,  out_n,  script)
     write(ac, out_ac, script)
+
+    file_lock.release()
 
 
 def splitter(path, script):
@@ -232,28 +237,20 @@ def main():
         parsers.append('rate')
 
     procs = []
+    file_lock = Lock()
 
     # Kick off the parser threads
     for script in parsers:
         for root, dirs, files in os.walk(directory):
             for file in files:
                 path = '{0}{1}'.format(directory, file)
-                #threader(path, script, output)
-                p = Process(target=threader, args=(path, script, output))
+                p = Process(target=threader, args=(path, script, output, file_lock))
                 procs.append(p)
                 p.start()
-                if len(procs) >= 4:
-                    for proc in procs:
-                        proc.join()
-                    del proc[:]
 
     for proc in procs:
         proc.join()
     
-    with open('tracker.txt', 'a') as f:
-        f.write('\n')
-        f.write(files)
-
     print 'Done.'
     exit(0)
 
