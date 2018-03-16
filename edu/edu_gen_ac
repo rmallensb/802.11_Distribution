@@ -1,0 +1,10 @@
+{
+  "Count": 0, 
+  "fc_retry": 0, 
+  "fc_type": {}, 
+  "Data_rate": {}, 
+  "Noise_dbm": {}, 
+  "Signal_dbm": {}, 
+  "SNR": {}, 
+  "Duration": {}
+}
