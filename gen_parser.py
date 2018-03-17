@@ -45,8 +45,8 @@ def parse(packet, d):
     if snr_true:
         signal = packet['WLAN_RADIO'].get('Signal_dbm')
         noise  = packet['WLAN_RADIO'].get('Noise_dbm')
-        s = math.pow(10, (signal/10.0))
-        n = math.pow(10, (noise/10.0))
+        s = math.pow(10, (float(signal)/10.0))
+        n = math.pow(10, (float(noise)/10.0))
 
         snr = s/n
 
