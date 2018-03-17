@@ -1,11 +1,12 @@
 import pyshark
+import math
 
 def parse(packet, d):
     
     # For cap['WLAN']
     wlan_interest  = ['fc_retry', 'fc_type']
     # For cap['WLAN_RADIO']
-    radio_interest = ['Signal_dbm', 'Noise_dbm', 'Data_rate', 'Duration']
+    radio_interest = ['Signal_dbm', 'Noise_dbm', 'Data_rate']
 
     d['Count'] += 1
 
@@ -44,8 +45,10 @@ def parse(packet, d):
     if snr_true:
         signal = packet['WLAN_RADIO'].get('Signal_dbm')
         noise  = packet['WLAN_RADIO'].get('Noise_dbm')
-        #snr = float(signal) / float(noise)
-        snr = float(noise) / float(signal)
+        s = math.pow(10, (signal/10.0))
+        n = math.pow(10, (noise/10.0))
+
+        snr = s/n
 
         if snr in d['SNR']:
             d['SNR'][snr] += 1
